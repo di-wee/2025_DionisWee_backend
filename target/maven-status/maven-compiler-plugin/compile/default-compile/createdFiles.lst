@@ -1,1 +1,5 @@
+nus/iss/AppConfiguration.class
+nus/iss/apis/CoinChangeResource.class
+nus/iss/models/CoinChangeRequest.class
 nus/iss/Main.class
+nus/iss/apis/PingResource.class

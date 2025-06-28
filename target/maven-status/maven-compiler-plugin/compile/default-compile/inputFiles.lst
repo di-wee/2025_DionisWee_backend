@@ -1,1 +1,5 @@
-/Users/dionis/GDipSA/SA4108/Android/Tin/Kotlin/Workshops/ws/ws05/coin_change/src/main/java/nus/iss/Main.java
+/Users/dionis/GDipSA/Pre-Internship/oracle/Backend/coinchange-backend/src/main/java/nus/iss/AppConfiguration.java
+/Users/dionis/GDipSA/Pre-Internship/oracle/Backend/coinchange-backend/src/main/java/nus/iss/Main.java
+/Users/dionis/GDipSA/Pre-Internship/oracle/Backend/coinchange-backend/src/main/java/nus/iss/apis/CoinChangeResource.java
+/Users/dionis/GDipSA/Pre-Internship/oracle/Backend/coinchange-backend/src/main/java/nus/iss/apis/PingResource.java
+/Users/dionis/GDipSA/Pre-Internship/oracle/Backend/coinchange-backend/src/main/java/nus/iss/models/CoinChangeRequest.java

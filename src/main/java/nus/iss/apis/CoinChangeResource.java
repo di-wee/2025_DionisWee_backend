@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
-@Path("/changeCoin")
+@Path("/coinChange")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class CoinChangeResource{
@@ -28,6 +28,12 @@ public class CoinChangeResource{
         try {
             float targetAmount = request.getTargetAmount();
             List<Double> coins = request.getDenominations();
+
+            if(targetAmount <0 || targetAmount >= 10000.00) {
+                return Response.status(Response.Status.NOT_ACCEPTABLE)
+                        .entity("Not Acceptable")
+                        .build();
+            }
 
             //scaling targetAmount and coins up by 100, getting rid of decimals
             int scale = 100;
