@@ -4,6 +4,7 @@ import io.dropwizard.configuration.ResourceConfigurationSourceProvider;
 import io.dropwizard.core.Application;
 import io.dropwizard.core.setup.Bootstrap;
 import io.dropwizard.core.setup.Environment;
+import nus.iss.apis.CoinChangeResource;
 import nus.iss.apis.PingResource;
 
 public class Main  extends Application<AppConfiguration> {
@@ -15,6 +16,7 @@ public class Main  extends Application<AppConfiguration> {
     @Override
     public void run(AppConfiguration appConfiguration, Environment environment) throws Exception {
         environment.jersey().register(new PingResource());
+        environment.jersey().register(new CoinChangeResource());
 
     }
 

@@ -9,11 +9,11 @@ public class CoinChangeRequest {
     public CoinChangeRequest() {
     }
 
-    public int getTargetAmount() {
+    public float getTargetAmount() {
         return targetAmount;
     }
 
-    public void setTargetAmount(int targetAmount) {
+    public void setTargetAmount(float targetAmount) {
         this.targetAmount = targetAmount;
     }
 
