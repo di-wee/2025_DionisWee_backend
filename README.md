@@ -64,7 +64,7 @@ Make sure your `config.yml` file is in the project root.
 Example (replace with your own public IP):
 
 ```
-http://<YOUR_PUBLIC_IP>:8080/api/v1/coin-change
+http://54.169.133.117:8080/api/v1/coinChange
 ```
 
 ---
